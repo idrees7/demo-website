@@ -1,0 +1,548 @@
+@font-face {
+ font-family: Myriad-Pro-Regular;
+ src: url(../fonts/MyriadProRegular.ttf);
+}
+@font-face {
+ font-family: Proxima-Nova-Regular;
+ src: url(../fonts/ProximaNovaRegular.otf);
+}
+body {
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 14px;
+    color: #303030;
+}
+.websiteTitle{
+	text-align: center;
+	font-weight: 700;
+    color: #f46f22;
+    font-size: 46px;
+}
+.compayName{
+	background: #ffffff;
+}
+.menuBorder{
+	border-bottom: solid 2px #514e4b;
+}
+.menu{
+	background: #ef9235;
+}
+.menu li{
+	list-style: none;
+	text-align: center;
+	border-right: solid 1px #514e4b;
+	font-size: 13px;
+    margin: 1% 0%;
+    padding: 0%; 
+}
+.menu li.icon {
+	display: none;
+}
+.menu li:last-child{
+	border: 0px;
+}
+.menu a{
+	font-weight: 600;
+    color: #3f3f3f;
+    font-size: 12px;
+}
+a:hover {
+    text-decoration: none;
+}
+.sideMenu ul{
+	float: right;
+	/*width: 10%;*/
+}
+.sideMenu ul li{
+	background: #636363;
+	list-style: none;
+	margin-bottom: 6%;
+    padding: 5px;
+}
+.sideMenu p {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.banner{
+	text-align: center;
+    background: url(../images/image_banner.png) no-repeat center;
+    background-size: cover;
+}
+.banner h1,.banner h2{
+	font-size: 30px;
+    color: #5d4103;
+    font-weight: 600;
+}
+.banner h1 span{
+	font-size: 700;
+	font-size: 36px;
+}
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (min-width: 768px) {
+.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+.insuranceType div {
+    float: left;
+    width: 20%;
+}
+.insuranceType p{
+	font-weight: 700;
+    color: #4c4c4c;
+}
+.border{
+	border: solid 1px #e8e8e8; 
+}
+.details{
+	text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+.details .title img{
+	top: 32px;
+    position: relative;
+    left: 8%;
+}
+.details .title h1{
+	font-family: Myriad-Pro-Regular;
+	font-size: 35px;
+	color: #3c3a3a;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.details .title p{
+	font-family: Myriad-Pro-Regular;
+	font-size: 16px;
+	color: #3d3d3d;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.detailedItems{
+	margin-top: 5%;
+	margin-bottom: 2%;
+}
+.detailedItems .col-xs-4 h1,.detailedItems .col-xs-4 p{
+	font-family: Proxima-Nova-Regular;
+    font-size: 30px;
+    font-weight: bold;
+    color: #333232;
+}
+.detailedItems .col-xs-4 p{
+	color: #888888;
+	font-size: 13px;
+	margin: 0 13%;
+}
+.renewal{
+	text-align: center;
+    background: url(../images/image_bg.png) no-repeat center;
+    background-size: cover;
+}
+.renewal .title h1{
+	margin-top: 3%;
+	font-family: Myriad-Pro-Regular;
+	font-size: 35px;
+	color: #ffffff;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.renewal .title p{
+	font-family: Myriad-Pro-Regular;
+	font-size: 16px;
+	color: #ffffff;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+.renewalList{
+	text-align: left;
+	margin-top: 4%;
+	margin-bottom: 4%;
+}
+.renewalList p{
+	font-family: Myriad-Pro-Regular;
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-left: 2%;
+}
+.renewalList ul{
+	margin-top: 1%;
+}
+.renewalList li{
+	font-family: Myriad-Pro-Regular;
+	font-size: 18px;
+	color: #3d3d3d;
+	margin-bottom: 1%;
+}
+.nav-tabs>li>a{
+	border-radius: 0px;
+	background: #ef9137;
+	font-size: 18px;
+	color: #303030;
+	width: 100%;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	border: 1px solid #ddd;
+    border-bottom: 2px solid #ef9137;
+}
+.nav-tabs>li.active{
+	background: #ffffff;
+}
+.nav-tabs {
+    border-bottom: 1px solid transparent; 
+    text-align: center;
+    margin: 0 auto;
+}
+.nav-tabs>li{
+	margin-right: 0px;
+	float: none;
+	display: inline-block;
+	zoom: 1;
+	margin-bottom: -6px;
+}
+.nav>li>a{
+	padding: 15px 35px;
+	margin-bottom: 1%;
+	margin-right: 0px;
+}
+.comment{
+	margin-top: 3%;
+}
+.commentSection{
+	border-top: solid 1px #e2e2e2;
+	border-bottom: solid 1px #e1e1e1;
+	background: #e2e2e2;
+}
+.nav-tabs>li>a:hover{
+	border-color: #ffffff;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: #ffffff;
+}
+.comments{
+	margin-left: 5%;
+}
+.calendarIcon {
+    margin-top: 3%;
+}
+.tabDetails{
+	margin-top: 2%;
+}
+.tabContainer:first-child{
+    border-bottom: 1px solid #e2e2e2;
+}
+.tabContainer{
+	background-color: #ffffff;
+	padding-bottom: 2%;
+}
+.views,.comments{
+	font-size: 14px;
+	color: #005cc2;
+}
+.carousel-control 			 { width:  4%; }
+.carousel-control.left,.carousel-control.right {margin-left:15px;background-image:none;}
+@media (max-width: 767px) {
+	.carousel-inner .active.left { left: -100%; }
+	.carousel-inner .next        { left:  100%; }
+	.carousel-inner .prev		 { left: -100%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+
+}
+@media (min-width: 767px) and (max-width: 992px ) {
+	.carousel-inner .active.left { left: -50%; }
+	.carousel-inner .next        { left:  50%; }
+	.carousel-inner .prev		 { left: -50%; }
+	.active > div { display:none; }
+	.active > div:first-child { display:block; }
+	.active > div:first-child + div { display:block; }
+}
+@media (min-width: 992px ) {
+	.carousel-inner .active.left { left: -25%; }
+	.carousel-inner .next        { left:  25%; }
+	.carousel-inner .prev		 { left: -25%; }	
+}
+@media (min-width: 768px){
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1  {
+    width: 100%;
+    *width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+
+/**
+ *  The following is not really needed in this case
+ *  Only to demonstrate the usage of @media for large screens
+ */    
+@media (min-width: 1200px) {
+  .seven-cols .col-md-1,
+  .seven-cols .col-sm-1,
+  .seven-cols .col-lg-1 {
+    width: 14.285714285714285714285714285714%;
+    *width: 14.285714285714285714285714285714%;
+  }
+}
+.bootstrapCarousel{
+	margin: 5% 0%;
+}
+.img-responsive{
+	width: 80%;
+}
+footer{
+	background: #555555;
+}
+footer .footerContent label{
+	border-right: 1px solid;
+    padding: 5px;
+    margin: 2% 0px;
+    line-height: 4px;
+    color: #cdcdcd;
+    font-weight: normal;
+}
+footer .footerContent p{
+	color: #cdcdcd;
+}
+footer .footerContent:nth-child(2){
+	text-align: right;
+}
+.footerContainer{
+	border-bottom: solid 1px #cdcdcd;
+	width: 98%;
+}
+.footerMenu{
+	margin-top: 2%;
+	width: 100%;
+}
+.footerMenuItem p{
+	color: #f4f4f4;
+	font-size: 16px;
+}
+.footerMenuItem:first-child{
+	text-align: center;
+}
+.footerMenuItem {
+	text-align: left;
+}
+.footerSubMenu{
+	padding-top: 10%;
+}
+.footerSubMenu p{
+	color: #cdcdcd;
+	font-size: 12px;
+	text-align: left;
+}
+.footerDesc{
+	margin-top: 2%;
+    color: #cdcdcd;
+    font-size: 12px;
+    font-weight: normal;
+}
+.footerDesc h1{
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.carousel-inner{
+	width: 85%;
+	margin: 0 auto;
+}
+footer .footerContent .footerTab:last-child,footer .footerContent .email{
+	border-right: 0px;
+}
+@media screen and (max-width:680px) {
+	.insuranceType div {
+	    float: left;
+	    width: 100%;
+	}
+	.nav-tabs>li{
+		width: 100%;
+	}
+	footer .footerContent:nth-child(2){
+		text-align: left;
+	}
+	.websiteTitle{
+		font-size: 100%;
+	}
+	.footerMenuItem{
+		text-align: left !important;
+		margin-bottom: 5%;
+	}
+	.footerMenu{
+		margin-left: 2%;
+	}
+	.footerSubMenu p{
+		padding-left: 0%;
+	}
+	.tabContainer{
+		display: block !important;
+	}
+	.renewalList{
+		width: 100%;
+		margin-left: 5%;
+	}
+	.calendarIcon{
+		width: 100%;
+	}
+	.footerSubMenu{
+		padding-top: 3%;
+	}
+	.renewalList li{
+		font-size: 15px;
+	}
+	.title{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.banner h1, .banner h2{
+		font-size: 100%;
+	    width: 82%;
+	    text-align: center;
+	    margin: 0 auto;
+	    margin-top: 15px;
+	}
+	.banner h1 span{
+		font-size: 120%;
+	}
+	.carousel-control.left, .carousel-control.right{
+		margin-top: 9%;
+	}
+	.carousel-inner{
+		margin-left: 19%;
+	}
+	footer .footerContent label{
+		line-height: 18px;
+	}
+	ul.menu li:not(:last-child) {display: none;}
+	ul.menu li.icon {
+		float: right;
+		display: inline-block;
+		position: relative;
+		right: 4%;
+	}
+	ul.menu.responsive {position: relative;}
+	ul.menu.responsive li.icon {
+		position: absolute;
+		right: 4%;
+		top: 0;
+	}
+	ul.menu.responsive li {
+		float: none;
+		display: inline;
+		border: none;
+	}
+	ul.menu.responsive li a {
+		display: block;
+		text-align: left;
+	}
+	.menuBorder{
+		width: 104%;
+	}
+	.sideMenu{
+		margin-top: 5%;
+	}
+	.calendarIcon img {
+    	margin-left: 0% !important;
+    }
+    .details .title img {
+	    left: 40% !important;
+	}
+}
+@media screen and (max-width:768px) {
+	.insuranceType{
+		margin-left: 2%;
+	}
+	.calendarIcon img{
+		margin-left: 24%;
+		margin-top: 10%;
+	}
+	footer .footerContent:nth-child(2){
+		text-align: right;
+	}
+	.footerMenuItem{
+		text-align: left;
+	}
+	.footerMenuItem:first-child{
+		text-align: left;
+	}
+	.footerMenu{
+		margin-left: 2%;
+	}
+	.footerSubMenu p{
+		padding-left: 0%;
+	}
+	.footerContent{
+		width: 50%;
+    	float: left;
+	}
+	.footerSubMenu {
+	    padding-top: 2%;
+	}	
+	ul.menu li:not(:last-child) {display: none;}
+	ul.menu li.icon {
+		float: right;
+		display: inline-block;
+		position: relative;
+		right: 4%;
+	}
+	ul.menu.responsive {position: relative;}
+	ul.menu.responsive li.icon {
+		position: absolute;
+		right: 4%;
+		top: 0;
+	}
+	ul.menu.responsive li {
+		float: none;
+		display: inline;
+		border: none;
+	}
+	ul.menu.responsive li a {
+		display: block;
+		text-align: left;
+	}
+	.menuBorder{
+		width: 104%;
+	}
+	.active > div {
+	    display: block !important;
+	}
+	.details .title img{
+		left: 15%;
+	}
+}
