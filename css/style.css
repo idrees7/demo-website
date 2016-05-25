@@ -546,3 +546,47 @@ footer .footerContent .footerTab:last-child,footer .footerContent .email{
 		left: 15%;
 	}
 }
+@media screen and (max-width:991px) {
+
+	ul.menu li:not(:last-child) {display: none;}
+	ul.menu li.icon {
+		float: right;
+		display: inline-block;
+		position: relative;
+		right: 4%;
+	}
+	ul.menu.responsive {position: relative;}
+	ul.menu.responsive li.icon {
+		position: absolute;
+		right: 4%;
+		top: 0;
+	}
+	ul.menu.responsive li {
+		float: none;
+		display: inline;
+		border: none;
+	}
+	ul.menu.responsive li a {
+		display: block;
+		text-align: left;
+		padding-top: 12px;
+	}
+	.footerMenuItem:first-child{
+		text-align: left;
+	}	
+	.active > div {
+	    display: block !important;
+	}
+}
+@media screen and (max-width:766px) {
+	.col-sm-2 {
+	    width: 16.66666667%;
+	    float: left;
+	}
+	.carousel-control.left, .carousel-control.right {
+	    margin-top: -1%;
+	}
+	.carousel-inner {
+	    margin-left: 11%;
+	}
+}
