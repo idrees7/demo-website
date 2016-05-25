@@ -29,7 +29,7 @@
 					<li class="col-md-1"><a href="#">Claim Support</a></li>
 					<li class="col-md-1"><a href="#">Renewal Reminder</a></li>
 					<li class="icon">
-						<a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+						<a href="#" style="font-size:15px;">☰</a>
 					</li>
 				</ul>
 			</nav>
@@ -351,7 +351,7 @@
 		}
 	});
 	function myFunction() {
-	    document.getElementsByClassName("menu")[0].classList.toggle("responsive");
+	   $(".menu").toggleClass("responsive");
 	}
 </script>
 </html>
